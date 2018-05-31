@@ -43,5 +43,5 @@ class Config(object):
     batch_size = 30
     vocab_size = 10000
     rnn_model = "gru"
-    data_path = "../simple-examples/data/"
+    data_path = "./data/"
     save_path = "../out/cudnn/gru/"
